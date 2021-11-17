@@ -4,8 +4,8 @@ export const addUser = async (db: any, user: any) => {
         await db.collection("users").doc(user.uid).set({
             name: user.displayName,
             icon: user.photoURL,
-            createAt: now,
-            updateAt: now,
+            createdAt: now,
+            updatedAt: now,
         });
     } catch (e) {
         console.error(e);

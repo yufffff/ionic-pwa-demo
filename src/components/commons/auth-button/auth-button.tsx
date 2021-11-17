@@ -30,7 +30,7 @@ export class AuthButtonComponent {
                         if (this.loginUser) {
                             return [
                                 <ion-button class="c-auth-button">
-                                    <img src="{this.loginUser.providerData[0].photoURL}" />
+                                    <img src={this.loginUser.providerData[0].photoURL} />
                                 </ion-button>,
                             ];
                         } else {

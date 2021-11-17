@@ -31,7 +31,7 @@ export class TabsPage {
                         <ion-label>メッセージ</ion-label>
                     </ion-tab-button>
                     <ion-tab-button tab="tab-user">
-                        <ion-icon name="mail"/>
+                        <ion-icon name="people"/>
                         <ion-label>ユーザー</ion-label>
                     </ion-tab-button>
                     <ion-tab-button tab="tab-setting">
